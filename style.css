@@ -1,0 +1,7 @@
+.container-bg {
+    background: url(cherry_field.jpg);
+}
+
+#top-grad {
+    background-image: linear-gradient(rgba(231,212,216,1), rgba(231, 212, 216, 0));
+  }
