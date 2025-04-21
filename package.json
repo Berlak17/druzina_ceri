@@ -1,0 +1,23 @@
+{
+  "name": "druzina_ceri",
+  "version": "1.0.0",
+  "description": "ZA delovanje sledečega boste potrebovali nameščeno zadnjo različico Docker Desktop, ki jo najdete na sledeči povezavi:\r - [Windows 10 ali 11](https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe?utm_source=docker&utm_medium=webreferral&utm_campaign=dd-smartbutton&utm_location=module)\r - [MacOS - Apple Silicon čip](https://desktop.docker.com/mac/main/arm64/Docker.dmg?utm_source=docker&utm_medium=webreferral&utm_campaign=dd-smartbutton&utm_location=module)\r - [MacOS - Intel čip](https://desktop.docker.com/mac/main/amd64/Docker.dmg?utm_source=docker&utm_medium=webreferral&utm_campaign=dd-smartbutton&utm_location=module)\r - [Linux](https://docs.docker.com/desktop/setup/install/linux/)\r >  Linux omogoča namestitev preko konzole, slednja navodila so za Ubuntu sistem:\r >\r > sudo apt-get update\r > sudo apt install docker\r >\r >Edino bodite pozorni, da vsak Docker ukaz pričnete s **sudo**, saj deluje samo z ukazi na *root-u*. Vašega uporabnika lahko dodate kot člana skupine Docker, kar je razloženo na [Dockerdocs](https://docs.docker.com/engine/install/linux-postinstall/).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Berlak17/druzina_ceri.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Berlak17/druzina_ceri/issues"
+  },
+  "homepage": "https://github.com/Berlak17/druzina_ceri#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.5"
+  }
+}

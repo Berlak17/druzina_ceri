@@ -1,0 +1,21 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$custom-colors: (
+    "pinklight": #E7D4D8,
+    "cheryred": #7B1D26,
+    "offwhite": #F1ECDB,
+    "darkgrey": #3F383A,
+    "offyellow": #E9D698
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
