@@ -1,7 +1,41 @@
-.container-bg {
-    background: url(cherry_field.jpg);
+.font_kanit_besedilo {
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.2em;
 }
 
-#top-grad {
-    background-image: linear-gradient(rgba(231,212,216,1), rgba(231, 212, 216, 0));
-  }
+.font_orelega_naslovi {
+    font-family: 'Orelega One', serif; 
+    font-size: 2em;
+}
+
+.gray {
+    color: #3F383A;
+}
+
+.dark_red {
+    color: #4C1208;
+}
+
+.light_gold {
+    color: #E9D698;
+}
+
+.ligher_red {
+    color: #7B1D26;
+}
+
+.soft_pink {
+    color: #E7D4D8;
+}
+
+.dark_pink {
+    color: #B99099;
+}
+
+.light_beige {
+    color: #F1ECDB;
+}
+
+.green {
+    color: #868859;
+}

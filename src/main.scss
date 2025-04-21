@@ -5,13 +5,34 @@
 
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/_utilities";
 
 $custom-colors: (
     "pinklight": #E7D4D8,
+    "pinkdark": #B99099,
     "cheryred": #7B1D26,
     "offwhite": #F1ECDB,
     "darkgrey": #3F383A,
-    "offyellow": #E9D698
+    "offyellow": #E9D698,
+    "kindagreen": #868859,
+    "darkcherryred": #4C1208
+);
+
+$font-sizes: (
+  5: 2rem,
+  6: 1.2rem,
+);
+
+$utilities: map-merge(
+  $utilities,
+  (
+    "font-size": map-merge(
+      map-get($utilities, "font-size"),
+      (
+        values: $font-sizes,
+      ),
+    ),
+  )
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
