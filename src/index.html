@@ -16,7 +16,7 @@
 <body>
     
     <div class="container-flex d-flex" style="border: 1px solid green; background-image: url(cherry_field.jpg); background-position: center; background-size: cover; height: 100vh;">
-        <div class="row flex-grow-1" style="border: 1px solid blue;">
+        <div class="row flex-grow-1 g-0" style="border: 1px solid blue;"> <!-- g-0 more bit tu da je nabar na miru???????-->
             <div class="col-4">
             </div>
             <div class="col-4 text-center" style="border: 1px solid red;">
@@ -25,7 +25,7 @@
             <div class="col-4">
             </div>
         </div>
-        <div class="row">
+        <div class="row g-0"> <!-- tudi tu more bit g-0 zato da se navbar ne premika........... kaj?? -->
           <div class="col">
           </div>
     
@@ -245,7 +245,7 @@ O nas
 
 <!-- NAVBAR OBSTAJA LETS FUCKING GOOOOOOOOOOOOOO (nena še dela ampak vsaj OBSTAJA OMG YIPPIEEEEE) -->
     <div class="fixed-bottom bg-black">
-      <div class="d-flex align-items-center row">
+      <div class="d-flex align-items-center row g-0">
         <div class="col-4 text-center">
           <button class="btn btn-sm rounded" onclick = kosarica()>
             <img src="kosarica_icon.png" class="img-fluid mx-auto d-block max-width: 100% pt-2 pb-2 ps-2" width="60em" alt="kosarica" >
@@ -264,6 +264,8 @@ O nas
       </div>
     </div>
 <!-- tu se navbar za zdaj konča, ne vem kak točno ga importat da se ne rabi vedno pisat -->
+
+
     <div class="collapse navbar-collapse bg-danger text-white text-center" id="navbarCesnje">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item">
