@@ -8,6 +8,8 @@
     <link href="main.css" rel="stylesheet">
     
     <link href="style.css" rel="stylesheet">
+    
+    
 
     <script src=../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js></script>
 </head>
@@ -169,7 +171,7 @@
 
 
       <div class="card me-3 bg-darkgrey" style="min-width: 200px;">
-        <div class="card-header text-offyellow"><img src="profilna.png" class="img-fluid" alt="profile"> Natrisil Berlisk</div>
+        <div class="card-header text-offyellow"><img src="profilna.png" class="img-fluid" alt="profile"> Natsirt Kalreb</div>
         <div class="card-body text-offwhite">Sovražim vse</div>
         <div class="card-footer">
           
@@ -194,9 +196,8 @@
 
   </div>
 
-
 </div>
-
+</div>
 
 <!--Acordian-->
 <div id="accordion" class="text-offwhite">
@@ -242,47 +243,43 @@ O nas
 
 </div>
 
-
-
-        
-
-          
-      
-    
-
-
-
-              
-
-
-
-
-
-
-
-
-
-
-    <!-- 
-      <nav class="navbar fixed-bottom navbar-expand-lg navbar-light bg-light ">
-        <div class="container justify-content-center">
-          <ul class="navbar-nav nav-fill">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
+<!-- NAVBAR OBSTAJA LETS FUCKING GOOOOOOOOOOOOOO (nena še dela ampak vsaj OBSTAJA OMG YIPPIEEEEE) -->
+    <div class="fixed-bottom bg-black">
+      <div class="d-flex align-items-center row">
+        <div class="col-4 text-center">
+          <button class="btn btn-sm rounded" onclick = kosarica()>
+            <img src="kosarica_icon.png" class="img-fluid mx-auto d-block max-width: 100% pt-2 pb-2 ps-2" width="60em" alt="kosarica" >
+          </button>
         </div>
-      </nav>
-    -->
-
-
-    
+        <div class="col-4 text-center">
+          <button class="btn btn-sm rounded" onclick = profil()>
+            <img src="home_icon.png" class="img-fluid mx-auto d-block max-width: 100% pt-2 pb-2 ps-2" width="60em" alt="home" >
+          </button>
+        </div>
+        <div class="col-4 text-center">
+          <button class="btn btn-sm rounded navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCesnje">
+              <img src="burger_meni_icon.png" class="img-fluid d-block mx-auto max-width: 100% pt-2 pb-2 ps-2" width="60em" alt="burger_meni" >
+          </button>
+        </div>
+      </div>
+    </div>
+<!-- tu se navbar za zdaj konča, ne vem kak točno ga importat da se ne rabi vedno pisat -->
+    <div class="collapse navbar-collapse bg-danger text-white text-center" id="navbarCesnje">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" href="HOMEPAGE.HTML">Domov</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="izdelki.html">Izdelki</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="galerija.html">O nas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">Kontakt</a>
+        </li>
+      </ul>
+    </div>
 
 </body>
 </html>

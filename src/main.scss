@@ -2,11 +2,14 @@
 // Option A: Include all of Bootstrap
 
 // Include any default variable overrides here (though functions won't be available)
-
-@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/mixins";
 @import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/maps";
 @import "../node_modules/bootstrap/scss/utilities";
+
+
+
 
 
 $custom-colors: (
@@ -21,6 +24,18 @@ $custom-colors: (
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
+
+/*$variables: map-merge(
+  $variables,
+  (
+    "theme-colors": map-merge(
+      map-get($variables, "theme-colors"),
+      (
+        values: $theme-colors,
+      ),
+    ),
+  )
+);
 
 $font-sizes: (
   1: 12rem,
@@ -43,7 +58,7 @@ $utilities: map-merge(
       ),
     ),
   )
-);
+);*/
 
 
 
