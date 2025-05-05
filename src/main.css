@@ -53,14 +53,6 @@
   --bs-danger-rgb: 220, 53, 69;
   --bs-light-rgb: 248, 249, 250;
   --bs-dark-rgb: 33, 37, 41;
-  --bs-pinklight-rgb: 231, 212, 216;
-  --bs-pinkdark-rgb: 185, 144, 153;
-  --bs-cheryred-rgb: 123, 29, 38;
-  --bs-offwhite-rgb: 241, 236, 219;
-  --bs-darkgrey-rgb: 63, 56, 58;
-  --bs-offyellow-rgb: 233, 214, 152;
-  --bs-kindagreen-rgb: 134, 136, 89;
-  --bs-darkcherryred-rgb: 76, 18, 8;
   --bs-primary-text-emphasis: #052c65;
   --bs-secondary-text-emphasis: #2b2f32;
   --bs-success-text-emphasis: #0a3622;
@@ -7908,38 +7900,6 @@ textarea.form-control-lg {
   --bs-focus-ring-color: rgba(var(--bs-dark-rgb), var(--bs-focus-ring-opacity));
 }
 
-.focus-ring-pinklight {
-  --bs-focus-ring-color: rgba(var(--bs-pinklight-rgb), var(--bs-focus-ring-opacity));
-}
-
-.focus-ring-pinkdark {
-  --bs-focus-ring-color: rgba(var(--bs-pinkdark-rgb), var(--bs-focus-ring-opacity));
-}
-
-.focus-ring-cheryred {
-  --bs-focus-ring-color: rgba(var(--bs-cheryred-rgb), var(--bs-focus-ring-opacity));
-}
-
-.focus-ring-offwhite {
-  --bs-focus-ring-color: rgba(var(--bs-offwhite-rgb), var(--bs-focus-ring-opacity));
-}
-
-.focus-ring-darkgrey {
-  --bs-focus-ring-color: rgba(var(--bs-darkgrey-rgb), var(--bs-focus-ring-opacity));
-}
-
-.focus-ring-offyellow {
-  --bs-focus-ring-color: rgba(var(--bs-offyellow-rgb), var(--bs-focus-ring-opacity));
-}
-
-.focus-ring-kindagreen {
-  --bs-focus-ring-color: rgba(var(--bs-kindagreen-rgb), var(--bs-focus-ring-opacity));
-}
-
-.focus-ring-darkcherryred {
-  --bs-focus-ring-color: rgba(var(--bs-darkcherryred-rgb), var(--bs-focus-ring-opacity));
-}
-
 .position-static {
   position: static !important;
 }
@@ -8098,46 +8058,6 @@ textarea.form-control-lg {
 .border-dark {
   --bs-border-opacity: 1;
   border-color: rgba(var(--bs-dark-rgb), var(--bs-border-opacity)) !important;
-}
-
-.border-pinklight {
-  --bs-border-opacity: 1;
-  border-color: rgba(var(--bs-pinklight-rgb), var(--bs-border-opacity)) !important;
-}
-
-.border-pinkdark {
-  --bs-border-opacity: 1;
-  border-color: rgba(var(--bs-pinkdark-rgb), var(--bs-border-opacity)) !important;
-}
-
-.border-cheryred {
-  --bs-border-opacity: 1;
-  border-color: rgba(var(--bs-cheryred-rgb), var(--bs-border-opacity)) !important;
-}
-
-.border-offwhite {
-  --bs-border-opacity: 1;
-  border-color: rgba(var(--bs-offwhite-rgb), var(--bs-border-opacity)) !important;
-}
-
-.border-darkgrey {
-  --bs-border-opacity: 1;
-  border-color: rgba(var(--bs-darkgrey-rgb), var(--bs-border-opacity)) !important;
-}
-
-.border-offyellow {
-  --bs-border-opacity: 1;
-  border-color: rgba(var(--bs-offyellow-rgb), var(--bs-border-opacity)) !important;
-}
-
-.border-kindagreen {
-  --bs-border-opacity: 1;
-  border-color: rgba(var(--bs-kindagreen-rgb), var(--bs-border-opacity)) !important;
-}
-
-.border-darkcherryred {
-  --bs-border-opacity: 1;
-  border-color: rgba(var(--bs-darkcherryred-rgb), var(--bs-border-opacity)) !important;
 }
 
 .border-black {
@@ -8931,27 +8851,27 @@ textarea.form-control-lg {
 }
 
 .fs-1 {
-  font-size: calc(1.375rem + 1.5vw) !important;
+  font-size: calc(2.325rem + 12.9vw) !important;
 }
 
 .fs-2 {
-  font-size: calc(1.325rem + 0.9vw) !important;
+  font-size: calc(2.125rem + 10.5vw) !important;
 }
 
 .fs-3 {
-  font-size: calc(1.3rem + 0.6vw) !important;
+  font-size: calc(1.825rem + 6.9vw) !important;
 }
 
 .fs-4 {
-  font-size: calc(1.275rem + 0.3vw) !important;
+  font-size: calc(1.625rem + 4.5vw) !important;
 }
 
 .fs-5 {
-  font-size: 1.25rem !important;
+  font-size: calc(1.375rem + 1.5vw) !important;
 }
 
 .fs-6 {
-  font-size: 1rem !important;
+  font-size: 1.2rem !important;
 }
 
 .fst-italic {
@@ -9095,46 +9015,6 @@ textarea.form-control-lg {
 .text-dark {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity)) !important;
-}
-
-.text-pinklight {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-pinklight-rgb), var(--bs-text-opacity)) !important;
-}
-
-.text-pinkdark {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-pinkdark-rgb), var(--bs-text-opacity)) !important;
-}
-
-.text-cheryred {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-cheryred-rgb), var(--bs-text-opacity)) !important;
-}
-
-.text-offwhite {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-offwhite-rgb), var(--bs-text-opacity)) !important;
-}
-
-.text-darkgrey {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-darkgrey-rgb), var(--bs-text-opacity)) !important;
-}
-
-.text-offyellow {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-offyellow-rgb), var(--bs-text-opacity)) !important;
-}
-
-.text-kindagreen {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-kindagreen-rgb), var(--bs-text-opacity)) !important;
-}
-
-.text-darkcherryred {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-darkcherryred-rgb), var(--bs-text-opacity)) !important;
 }
 
 .text-black {
@@ -9339,46 +9219,6 @@ textarea.form-control-lg {
   text-decoration-color: rgba(var(--bs-dark-rgb), var(--bs-link-underline-opacity)) !important;
 }
 
-.link-underline-pinklight {
-  --bs-link-underline-opacity: 1;
-  text-decoration-color: rgba(var(--bs-pinklight-rgb), var(--bs-link-underline-opacity)) !important;
-}
-
-.link-underline-pinkdark {
-  --bs-link-underline-opacity: 1;
-  text-decoration-color: rgba(var(--bs-pinkdark-rgb), var(--bs-link-underline-opacity)) !important;
-}
-
-.link-underline-cheryred {
-  --bs-link-underline-opacity: 1;
-  text-decoration-color: rgba(var(--bs-cheryred-rgb), var(--bs-link-underline-opacity)) !important;
-}
-
-.link-underline-offwhite {
-  --bs-link-underline-opacity: 1;
-  text-decoration-color: rgba(var(--bs-offwhite-rgb), var(--bs-link-underline-opacity)) !important;
-}
-
-.link-underline-darkgrey {
-  --bs-link-underline-opacity: 1;
-  text-decoration-color: rgba(var(--bs-darkgrey-rgb), var(--bs-link-underline-opacity)) !important;
-}
-
-.link-underline-offyellow {
-  --bs-link-underline-opacity: 1;
-  text-decoration-color: rgba(var(--bs-offyellow-rgb), var(--bs-link-underline-opacity)) !important;
-}
-
-.link-underline-kindagreen {
-  --bs-link-underline-opacity: 1;
-  text-decoration-color: rgba(var(--bs-kindagreen-rgb), var(--bs-link-underline-opacity)) !important;
-}
-
-.link-underline-darkcherryred {
-  --bs-link-underline-opacity: 1;
-  text-decoration-color: rgba(var(--bs-darkcherryred-rgb), var(--bs-link-underline-opacity)) !important;
-}
-
 .link-underline {
   --bs-link-underline-opacity: 1;
   text-decoration-color: rgba(var(--bs-link-color-rgb), var(--bs-link-underline-opacity, 1)) !important;
@@ -9470,46 +9310,6 @@ textarea.form-control-lg {
 .bg-dark {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
-}
-
-.bg-pinklight {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-pinklight-rgb), var(--bs-bg-opacity)) !important;
-}
-
-.bg-pinkdark {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-pinkdark-rgb), var(--bs-bg-opacity)) !important;
-}
-
-.bg-cheryred {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-cheryred-rgb), var(--bs-bg-opacity)) !important;
-}
-
-.bg-offwhite {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-offwhite-rgb), var(--bs-bg-opacity)) !important;
-}
-
-.bg-darkgrey {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-darkgrey-rgb), var(--bs-bg-opacity)) !important;
-}
-
-.bg-offyellow {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-offyellow-rgb), var(--bs-bg-opacity)) !important;
-}
-
-.bg-kindagreen {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-kindagreen-rgb), var(--bs-bg-opacity)) !important;
-}
-
-.bg-darkcherryred {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-darkcherryred-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-black {
@@ -12675,16 +12475,19 @@ textarea.form-control-lg {
 }
 @media (min-width: 1200px) {
   .fs-1 {
-    font-size: 2.5rem !important;
+    font-size: 12rem !important;
   }
   .fs-2 {
-    font-size: 2rem !important;
+    font-size: 10rem !important;
   }
   .fs-3 {
-    font-size: 1.75rem !important;
+    font-size: 7rem !important;
   }
   .fs-4 {
-    font-size: 1.5rem !important;
+    font-size: 5rem !important;
+  }
+  .fs-5 {
+    font-size: 2.5rem !important;
   }
 }
 @media print {
