@@ -2,6 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Orelega+One&display=swap");
 @import url("https://use.typekit.net/tcg7wid.css");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css");
+.hide {
+  display: none !important;
+}
+
 .font-orelega-title {
   font-family: "Orelega One";
   font-size: 2em;
