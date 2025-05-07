@@ -28,26 +28,11 @@ filterDropdown.addEventListener("change", e => {
 
 
 //-------------------------------------
-const backtotop_img = document.getElementById("backtotop-img");
 
-window.onscroll = function () {
-  if (document.documentElement.scrollTop > 70 || document.body.scrollTop > 70) {
-    backtotop_img.classList.remove("scale-out-center");
-    backtotop_img.classList.add("scale-in-center");
-    backtotop_img.style.visibility = "visible";
-  } else {
-    backtotop_img.classList.remove("scale-in-center");
-    backtotop_img.classList.add("scale-out-center");
+function kosarica() {
+  window.location.href = "obrazec.php";
+}
 
-    // Delay hiding until animation ends (0.5s)
-    setTimeout(() => {
-      if (!backtotop_img.classList.contains("scale-in-center")) {
-        backtotop_img.style.visibility = "hidden";
-      }
-    }, 500);
-  }
-};
-
-backtotop_img.onclick = function () {
-  window.scrollTo({ top: 0, behavior: 'smooth' });
-};
+function domov() {
+  window.location.href = "index.php";
+}

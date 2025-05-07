@@ -12,7 +12,7 @@
     
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-
+    <script src="costum.js" defer></script>
 </head>
 
 
@@ -47,7 +47,7 @@
               <!--izvedi več -->
   <div class="container-fluid bg-pinklight pb-2 pt-2">
     <div class="row">
-      <div class="col-12 text-center font-orelega-title">
+      <div class="col-12 text-center font-orelega-title text-darkcherryred">
         O družini
       </div>
     </div>
@@ -130,19 +130,19 @@
         <div class="card-body text-offwhite">češnjev liker je dober, priporočam</div>
         <div class="card-footer">
           
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill text-offyellow" viewBox="0 0 16 16">
           <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
         </svg>
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill text-offyellow" viewBox="0 0 16 16">
           <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
         </svg>
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill text-offyellow" viewBox="0 0 16 16">
           <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
         </svg>
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill text-offyellow" viewBox="0 0 16 16">
           <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
         </svg>
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill text-offyellow" viewBox="0 0 16 16">
           <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
         </svg>
       
@@ -154,19 +154,19 @@
         <div class="card-body text-offwhite">uuuuuuuuuuuuu, češnje!!!!</div>
         <div class="card-footer">
           
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill text-offyellow" viewBox="0 0 16 16">
           <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
         </svg>
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill text-offyellow" viewBox="0 0 16 16">
           <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
         </svg>
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill text-offyellow" viewBox="0 0 16 16">
           <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
         </svg>
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill text-offyellow" viewBox="0 0 16 16">
           <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
         </svg>
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star text-offyellow" viewBox="0 0 16 16">
           <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"/>
         </svg>
       
@@ -183,19 +183,19 @@
             Sovražim vse
           </div>
           <div class="card-footer">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill text-offyellow" viewBox="0 0 16 16">
               <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
             </svg>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star text-offyellow" viewBox="0 0 16 16">
               <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"/>
             </svg>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star text-offyellow" viewBox="0 0 16 16">
               <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"/>
             </svg>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star text-offyellow" viewBox="0 0 16 16">
               <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"/>
             </svg>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star text-offyellow" viewBox="0 0 16 16">
               <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"/>
             </svg>
           </div>
@@ -209,101 +209,7 @@
 
 
 <!-- bolsi acordian-->
+<?php include ("footer_nav.php"); ?>
 
-<div id="info" class="accordion accordion-flush mt-0">
-  <div class="accordion-item">
-    <h2 class="accordion-header font-orelega-title" id="heading-1">
-      <button class="accordion-button bg-darkgrey text-offwhite" type="button" data-bs-toggle="collapse" data-bs-target="#kontakt" aria-expanded="true" aria-controls="kontakt">
-        Kontakt
-      </button>
-    </h2>
-    <div id="kontakt" class="accordion-collapse collapse " aria-labelledby="heading-1" data-bs-parent="#info">
-      <div class="accordion-body bg-darkgrey text-offwhite">koksdoasodas</div>
-    </div>
-  </div>
-
-  <div class="accordion-item">
-    <h2 class="accordion-header font-orelega-title" id="heading-2">
-      <button class="accordion-button bg-darkgrey text-offwhite" type="button" data-bs-toggle="collapse" data-bs-target="#pomoc" aria-expanded="true" aria-controls="pomoc">
-        Pomoč in podpora
-      </button>
-    </h2>
-    <div id="pomoc" class="accordion-collapse collapse " aria-labelledby="heading-2" data-bs-parent="#info">
-      <div class="accordion-body bg-darkgrey text-offwhite">koksdoasodas</div>
-    </div>
-  </div>
-
-  <div class="accordion-item">
-    <h2 class="accordion-header font-orelega-title" id="heading-3">
-      <button class="accordion-button bg-darkgrey text-offwhite" type="button" data-bs-toggle="collapse" data-bs-target="#onas" aria-expanded="true" aria-controls="onas">
-        O nas
-      </button>
-    </h2>
-    <div id="onas" class="accordion-collapse collapse " aria-labelledby="heading-3" data-bs-parent="#info">
-      <div class="accordion-body bg-darkgrey text-offwhite">koksdoasodas</div>
-    </div>
-  </div>
-
-</div>
-
-
-<!--footer-->
-    <div>
-      <img src="images/ceri_logo2.png" class="img-fluid mx-auto d-block max-width: 100% pt-3" width="70em" alt="ceri_logo" >
-      <div class="text-center pb-5 pt-3">
-        © 2025 Čeri Inc. Vse pravice pridržane
-      </div>
-    </div>
-  </div>
-
-  <span id="backtotop-img" class="backtotop-img">
-    <img src="images/GoToTop.png" class="backtotop" alt="GoToTop">
-  </span>
-  
-
-
-
-  <div class="sticky-bottom">
-    <div class="collapse navbar-collapse bg-dark text-white font-orelega-title text-start pb-3 pt-3 ps-4 pe-4" id="navbarCesnje">
-      <ul class="navbar-nav ms-auto mb-lg-0">
-        <li class="nav-item display-5">
-          <a class="nav-link active" href="index.html">Domov</a>
-        </li>
-        <hr />
-        <li class="nav-item display-5">
-          <a class="nav-link" href="o_druzini.html">O družini</a>
-        </li>
-        <hr />
-        <li class="nav-item display-5">
-          <a class="nav-link" href="izdelki.html">Izdelki</a>
-        </li>
-        <hr />
-        <li class="nav-item display-5">
-          <a class="nav-link" href="obrazec.html">Obrazec za naročilo</a>
-        </li>
-      </ul>
-    </div>
-  <!-- NAVBAR OBSTAJA LETS FUCKING GOOOOOOOOOOOOOO (nena še dela ampak vsaj OBSTAJA OMG YIPPIEEEEE) -->
-    <div class="sticky-bottom bg-black">
-      <div class="d-flex align-items-center row g-0">
-        <div class="col-4 text-center">
-          <button class="btn btn-sm" onclick = kosarica()>
-            <img src="images/kosarica_icon.png" class="img-fluid mx-auto d-block max-width: 100% pt-2 pb-2" width="50em" alt="kosarica" >
-          </button>
-        </div>
-        <div class="col-4 text-center">
-          <button class="btn btn-sm" onclick = domov()>
-            <img src="images/home_icon.png" class="img-fluid mx-auto d-block max-width: 100% pt-2 pb-2" width="50em" alt="home" >
-          </button>
-        </div>
-        <div class="col-4 text-center">
-          <button class="btn btn-sm navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCesnje">
-              <img src="images/burger_meni_icon.png" class="img-fluid d-block mx-auto max-width: 100% pt-2 pb-2" width="50em" alt="burger_meni" >
-          </button>
-        </div>
-      </div>
-    </div>
-  <!-- tu se navbar za zdaj konča, ne vem kak točno ga importat da se ne rabi vedno pisat -->
-  </div> <!--DO SEM -->
 </body>
 </html>
