@@ -74,4 +74,71 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
     content: "\f2ea" !important; // bi-dash-lg
   }
 
-// Then add additional custom code here
+
+
+
+.backtotop-img {
+    visibility: hidden;
+    cursor: pointer;
+    position: fixed;
+    bottom: 100px;
+    right: 10px;
+    user-select: none;
+    transition:ls;
+  }
+
+  .backtotop{
+    pointer-events: none;
+    display: block;
+  }
+  
+
+
+  .slide-in-bottom {
+    -webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+.slide-out-top {
+    -webkit-animation: slide-out-top 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: slide-out-top 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  }
+.slide-in-center {
+    -webkit-animation: slide-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+.slide-out-center {
+    -webkit-animation: slide-out-center 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: slide-out-center 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  }
+
+
+  @keyframes scale-in-center {
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes scale-out-center {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(0);
+      opacity: 0;
+    }
+  }
+  
+  .scale-in-center {
+    animation: scale-in-center 0.5s ease-out forwards;
+  }
+  
+  .scale-out-center {
+    animation: scale-out-center 0.5s ease-out forwards;
+  }
+  
