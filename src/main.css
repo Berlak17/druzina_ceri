@@ -7,10 +7,6 @@
   font-size: 2em;
 }
 
-.cross {
-  font-size: 2em;
-}
-
 /* to more bit pred map merge kr mors nalozit rgb-barve????*/
 /*!
  * Bootstrap  v5.3.5 (https://getbootstrap.com/)
@@ -12734,4 +12730,22 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+.accordion-button::after {
+  content: "\f4fe" !important;
+  font-family: "bootstrap-icons" !important;
+  background-image: none !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  transform: none !important;
+  display: inline-block !important;
+  font-size: 2rem !important;
+  line-height: 1 !important;
+  text-align: center !important;
+  width: 1em !important;
+  height: 1em !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+  content: "\f2ea" !important;
 }

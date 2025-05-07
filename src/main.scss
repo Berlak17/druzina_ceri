@@ -33,9 +33,7 @@ $font-orelega: "Orelega One";
     font-size: 2em;
 }
 
-.cross{
-    font-size: 2em;
-}
+
 
 
 
@@ -45,8 +43,33 @@ $font-orelega: "Orelega One";
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
 @import "../node_modules/bootstrap/scss/maps";
-
 @import "../node_modules/bootstrap/scss/utilities";
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+
+
+
+
+//acordian button
+
+
+.accordion-button::after {
+    content: "\f4fe" !important; // bi-plus-lg
+    font-family: 'bootstrap-icons' !important;
+    background-image: none !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    transform: none !important;
+    display: inline-block !important;
+    font-size: 2rem !important;
+    line-height: 1 !important;
+    text-align: center !important;
+    width: 1em !important;
+    height: 1em !important;
+  }
+  
+  .accordion-button:not(.collapsed)::after {
+    content: "\f2ea" !important; // bi-dash-lg
+  }
 
 // Then add additional custom code here
