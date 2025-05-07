@@ -12754,63 +12754,23 @@ textarea.form-control-lg {
   content: "\f2ea" !important;
 }
 
-.backtotop-img {
-  visibility: hidden;
-  cursor: pointer;
-  position: fixed;
-  bottom: 100px;
-  right: 10px;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
-  transition: ls;
+.scrollToTop {
+  top: 80%;
+  right: 0;
+  width: 70px;
+  animation-name: appear;
+  animation-timeline: scroll(y);
 }
 
-.backtotop {
-  pointer-events: none;
-  display: block;
-}
-
-.slide-in-bottom {
-  animation: slide-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-}
-
-.slide-out-top {
-  animation: slide-out-top 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-}
-
-.slide-in-center {
-  animation: slide-in-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-}
-
-.slide-out-center {
-  animation: slide-out-center 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-}
-
-@keyframes scale-in-center {
+@keyframes appear {
   0% {
-    transform: scale(0);
     opacity: 0;
+    display: none;
+    position: fixed;
   }
   100% {
-    transform: scale(1);
     opacity: 1;
+    display: block;
+    position: fixed;
   }
-}
-@keyframes scale-out-center {
-  0% {
-    transform: scale(1);
-    opacity: 1;
-  }
-  100% {
-    transform: scale(0);
-    opacity: 0;
-  }
-}
-.scale-in-center {
-  animation: scale-in-center 0.5s ease-out forwards;
-}
-
-.scale-out-center {
-  animation: scale-out-center 0.5s ease-out forwards;
 }
