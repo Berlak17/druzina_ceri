@@ -4,8 +4,13 @@
 // Include any default variable overrides here (though functions won't be available)
 
 @import "../node_modules/bootstrap/scss/functions";
-@import "../node_modules/bootstrap/scss/variables";
 
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+@import url("https://use.typekit.net/tcg7wid.css");
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css");
+
+$font-family-sans-serif:"Kanit", sans-serif;
 
 $custom-colors: (
     "pinklight": #E7D4D8,
@@ -19,8 +24,29 @@ $custom-colors: (
 );
 
 
-@import "../node_modules/bootstrap/scss/utilities";
 
+$font-orelega: "Orelega One";
+
+
+.font-orelega-title{
+    font-family: $font-orelega;
+    font-size: 2em;
+}
+
+.cross{
+    font-size: 2em;
+}
+
+
+
+@import "../node_modules/bootstrap/scss/variables"; /* to more bit pred map merge kr mors nalozit rgb-barve????*/
+
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import "../node_modules/bootstrap/scss/maps";
+
+@import "../node_modules/bootstrap/scss/utilities";
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
