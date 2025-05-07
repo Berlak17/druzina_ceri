@@ -6,47 +6,100 @@
     <title>Družina Čeri</title>
 
     <link href="main.css" rel="stylesheet">
-    
-    <link href="style.css" rel="stylesheet">
+  
 
     <script src=../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js></script>
+    <script src="costum.js" defer></script>
 </head>
 <body>
     
-<header class="container-fluid">
-  <div class="row">
-    <div class="col-2 bg-darkcherryred px-0">
-        <img src="images/filter_icon.png" class="img-fluid mx-auto d-block pt-4 ms-4 me-0" width="50em" alt="filter_icon" >
-    </div>
-    <div class="col-8 bg-darkcherryred display-1 text-center text-offwhite pt-3 pb-3 ">
-        <div class="vr align-middle h-100 me-4 mb-1"></div>
-      Izdelki
+  <header class="container-fluid bg-darkcherryred">
+    <div class="row">
+      <div class="col-2 bg-darkcherryred px-0">
+        <img src="images/filter_icon.png" 
+             class="img-fluid d-block pt-4 ms-2 me-0 btn" 
+             data-bs-toggle="collapse" 
+             data-bs-target="#filter1" 
+             aria-expanded="false" 
+             aria-controls="filter1" 
+             id="filter-btn" 
+             type="button" 
+             width="70em" 
+             alt="filter_icon">
+      </div>
+  
+      <div class="col-8 bg-darkcherryred display-1 text-center text-offwhite pt-3 pb-3 px-0">
+        <div class="vr align-middle h-100 me-4 mb-1 font-orelega-title display-1"></div>
+        Izdelki
         <div class="vr align-middle h-100 ms-4 mb-1"></div>
+      </div>
+  
+      <div class="col-2 bg-darkcherryred d-flex align-items-center justify-content-center px-0 pt-2">
+        <img src="images/lupa_icon.png" 
+             class="img-fluid btn ps-0 pe-3 pb-3" 
+             data-bs-toggle="collapse" 
+             data-bs-target="#search1" 
+             aria-expanded="false" 
+             aria-controls="search1" 
+             id="search-btn" 
+             type="button" 
+             width="60em" 
+             alt="lupa_icon">
+      </div>
     </div>
-    <div class="col-2 bg-darkcherryred px-0">
-        <img src="images/lupa_icon.png" class="img-fluid mx-auto d-block pt-4 me-4 ms-0" width="50em" alt="lupa_icon" >
+  
+    <!-- Search Bar Collapse -->
+    <div class="collapse" id="search1">
+      <div class="container-fluid py-2 bg-darkcherryred">
+        <div class="row justify-content-center">
+          <div class="col-10 col-md-6">
+            <input 
+              type="search" 
+              placeholder="Išči izdelek" 
+              id="searchbar" 
+              class="form-control w-100" 
+              data-search>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+<!-- Filter Dropdown Collapse -->
+<div class="collapse" id="filter1">
+  <div class="container-fluid py-2 bg-darkcherryred">
+    <div class="row justify-content-center">
+      <div class="col-10 col-md-6">
+        <select id="filterDropdown" class="form-select">
+          <option value="">Vsi izdelki</option>
+          <option value="višnje">izdelki iz višnj</option>
+          <option value="češnje">izdelki iz češnj</option>
+        </select>
+      </div>
     </div>
   </div>
-</header>
+</div>
+  </header>
+  
 
-<section class="container-fluid">
+<section class="container-fluid bg-cheryred">
   <div class="row">
-    <div class="col-12 bg-pinkdark">
+    <div class="col-12">
       <div class="row">
-        <div class="col-12 text-center display-4 text-darkcherryred py-2">
+        <div class="col-12 text-center font-orelega-title text-offwhite py-2">
           Najbolj priljubljeni izdelki
         </div>
       </div>
-      <div class="row">
-        <div class="container-fluid bg-cheryred pb-3 pt-2">
+
+        <div class="container-fluid pb-3 pt-2">
           <div class="container-fluid">
             <div class="row mb-3">
               <div class="col-6">
-                <div class="container bg-offwhite rounded-4 mt-3 text-center">
+                <div class="container bg-offwhite rounded-4 mt-3 text-center card">
                   <div>
                       <img src="images/cesnjevo_vino.png" class="img-fluid mx-auto d-block max-width: 100% pt-3" alt="cesnjevo vino" >
                   </div>
-                    <div class="text-center">
+                    <div class="text-center header">
                         ČEŠNJEVO VINO
                     </div>
                   <div>
@@ -57,11 +110,11 @@
                 </div>
               </div>
                 <div class="col-6">
-                  <div class="container bg-offwhite rounded-4 mt-3 text-center">
+                  <div class="container bg-offwhite rounded-4 mt-3 text-center card">
                     <div>
                         <img src="images/visnjev_liker.png" class="img-fluid mx-auto d-block max-width: 100% pt-3" alt="visnjev liker" >
                     </div>
-                    <div class="text-center">
+                    <div class="text-center header">
                         VIŠNJEV LIKER
                     </div>
                     <div>
@@ -78,17 +131,18 @@
     </div>
   </div>
 </section>
-<section class="container-fluid">
+
+<section class="container-fluid bg-pinkdark text-offwhite">
     <div class="row">
-        <div class="col-12 bg-pinkdark">
+        <div class="col-12">
             <div class="row">
-                <div class="container-fluid bg-cheryred pb-3 pt-2">
-                    <div class="container-fluid">
+                <div class="container-fluid pb-3 pt-2">
+                    <div class="container-fluid ">
                         <div class="row mb-5 mt-3">
                             <div class="col-6">
-                                <div class="container bg-offwhite rounded-4 mt-3 text-center">
-                                    <img src="images/cesnje_kosara.jpeg" class="img-fluid mx-auto rounded-3" alt="cesnje" >
-                                    <div class="text-center">
+                                <div class="container bg-darkcherryred rounded-4 mt-3 text-center card text-offwhite">
+                                    <img src="images/cesnje_kosara.jpeg" class="img-fluid mx-auto rounded-3 mt-3" alt="cesnje" >
+                                    <div class="text-center mt-2 header">
                                         ČEŠNJE
                                     </div>
                                     <div>
@@ -99,9 +153,9 @@
                                 </div>
                             </div>
                             <div class="col-6">
-                                <div class="container bg-offwhite rounded-4 mt-3 text-center">
-                                    <img src="images/visnje_kosara.jpeg" class="img-fluid mx-auto d-block rounded-3" alt="visnje" >
-                                    <div class="text-center">
+                                <div class="container bg-darkcherryred rounded-4 mt-3 text-center card text-offwhite">
+                                    <img src="images/visnje_kosara.jpeg" class="img-fluid mx-auto rounded-3 mt-3" alt="visnje" >
+                                    <div class="text-center mt-2 header">
                                         VIŠNJE
                                     </div>
                                     <div>
@@ -114,9 +168,9 @@
                         </div>
                         <div class="row mb-5">
                             <div class="col-6">
-                                <div class="container bg-offwhite rounded-4 mt-3 text-center">
-                                    <img src="images/cesnje_marmelada.png" class="img-fluid mx-auto rounded-3" alt="cesnje_marmelada" >
-                                    <div class="text-center">
+                                <div class="container bg-darkcherryred rounded-4 mt-3 text-center card text-offwhite">
+                                    <img src="images/cesnje_marmelada.png" class="img-fluid mx-auto rounded-3  mt-3" alt="cesnje_marmelada" >
+                                    <div class="text-center mt-2 header">
                                         ČEŠNJEVA MARMELADA
                                     </div>
                                     <div>
@@ -127,9 +181,9 @@
                                 </div>
                             </div>
                             <div class="col-6">
-                                <div class="container bg-offwhite rounded-4 mt-3 text-center">
-                                    <img src="images/visnje_marmelada.png" class="img-fluid mx-auto d-block rounded-3" alt="visnje_marmelada" >
-                                    <div class="text-center">
+                                <div class="container bg-darkcherryred rounded-4 mt-3 text-center card text-offwhite">
+                                    <img src="images/visnje_marmelada.png" class="img-fluid mx-auto  mt-3 rounded-3" alt="visnje_marmelada" >
+                                    <div class="text-center mt-2 header">
                                         VIŠNJEVA MARMELADA
                                     </div>
                                     <div>
@@ -142,9 +196,9 @@
                         </div>
                         <div class="row mb-3">
                             <div class="col-6">
-                                <div class="container bg-offwhite rounded-4 mt-3 text-center">
-                                    <img src="images/cesnje_krema.jpeg" class="img-fluid mx-auto rounded-3" alt="cesnje_krema">
-                                    <div class="text-center">
+                                <div class="container bg-darkcherryred rounded-4 mt-3 text-center card text-offwhite">
+                                    <img src="images/cesnje_krema.jpeg" class="img-fluid mx-auto rounded-3  mt-3" alt="cesnje_krema">
+                                    <div class="text-center mt-2 header">
                                         KREMA S ČEŠNJEVIM EKSTRATOM
                                     </div>
                                     <div>
@@ -155,9 +209,9 @@
                                 </div>
                             </div>
                             <div class="col-6">
-                                <div class="container bg-offwhite rounded-4 mt-3 text-center" >
-                                    <img src="images/visnje_krema.jpeg" class="img-fluid mx-auto d-block rounded-3" alt="visnje_krema">
-                                    <div class="text-center">
+                                <div class="container bg-darkcherryred rounded-4 mt-3 text-center card text-offwhite" >
+                                    <img src="images/visnje_krema.jpeg" class="img-fluid mx-auto mt-3 rounded-3" alt="visnje_krema">
+                                    <div class="text-center mt-2 header">
                                         KREMA Z VIŠNJEVIM EKSTRATOM
                                     </div>
                                     <div>
@@ -176,96 +230,117 @@
 </section>
 
 
-<!--Acordian--> <!--OD TU KOPIRAJ FOOTER IN NAVBAR!-->
-<div id="accordion" class="text-offwhite">
-  <div class="card bg-darkgrey text-offwhite border-0">
-    <div class="card-header border-bottom-0">
-      <a class="btn text-offwhite text-start fs-5 w-100 text-start pb-0" data-bs-toggle="collapse" href="#collapseOne">
-        Kontakt
-        <hr />
-      </a>
-    </div>
-    <div id="collapseOne" class="collapse" data-bs-parent="#accordion">
-      <div class="card-body fs-6">
-        Lorem ipsum..
-      </div>
-    </div>
-  </div>
-  <div class="card bg-darkgrey text-offwhite border-0">
-    <div class="card-header border-bottom-0 pt-0 pb-0">
-      <a class="collapsed btn text-offwhite fs-5 w-100 text-start pb-0" data-bs-toggle="collapse" href="#collapseTwo">
-        Pomoč in podpora
-        <hr />
-      </a>
-    </div>
-    <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
-      <div class="card-body fs-6">
-        Lorem ipsum..
-      </div>
-    </div>
-  </div>
-  <div class="card bg-darkgrey text-offwhite border-0">
-    <div class="card-header border-bottom-0 pt-0 pb-0">
-      <a class="collapsed btn text-offwhite fs-5 w-100 text-start pb-0" data-bs-toggle="collapse" href="#collapseThree">
-        O nas
-        <hr />
-      </a>
-    </div>
-    <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
-      <div class="card-body fs-6">
-        Lorem ipsum..
-      </div>
-    </div>
-  </div>
+
+<!--template-->
+<div id="user-card-container" data-user-cards-container></div>
+<template user-card-template>
+<div class="container bg-offwhite rounded-4 mt-3 text-center card">
   <div>
-    <img src="images/ceri_logo2.png" class="img-fluid mx-auto d-block max-width: 100% pt-3" width="70em" alt="ceri_logo" >
-    <div class="text-center pb-5 pt-3">
-      © 2025 Čeri Inc. Vse pravice pridržane
+      <img src="" class="img-fluid mx-auto d-block max-width: 100% pt-3" alt="" >
+  </div>
+    <div class="text-center header" data-header>
+        
+    </div>
+  <div>
+      <a href="">
+        <img src="" class="img-fluid mx-auto d-block max-width: 100% pt-3" alt="" >
+      </a>
+  </div>  
+</div>
+</template>
+<!--Acordian--> <!--OD TU KOPIRAJ FOOTER IN NAVBAR!-->
+
+
+
+<!-- bolsi acordian-->
+
+<div id="info" class="accordion accordion-flush mt-0">
+  <div class="accordion-item">
+    <h2 class="accordion-header font-orelega-title" id="heading-1">
+      <button class="accordion-button bg-darkgrey text-offwhite" type="button" data-bs-toggle="collapse" data-bs-target="#kontakt" aria-expanded="true" aria-controls="kontakt">
+        Kontakt
+      </button>
+    </h2>
+    <div id="kontakt" class="accordion-collapse collapse " aria-labelledby="heading-1" data-bs-parent="#info">
+      <div class="accordion-body bg-darkgrey text-offwhite">koksdoasodas</div>
     </div>
   </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header font-orelega-title" id="heading-2">
+      <button class="accordion-button bg-darkgrey text-offwhite" type="button" data-bs-toggle="collapse" data-bs-target="#pomoc" aria-expanded="true" aria-controls="pomoc">
+        Pomoč in podpora
+      </button>
+    </h2>
+    <div id="pomoc" class="accordion-collapse collapse " aria-labelledby="heading-2" data-bs-parent="#info">
+      <div class="accordion-body bg-darkgrey text-offwhite">koksdoasodas</div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header font-orelega-title" id="heading-3">
+      <button class="accordion-button bg-darkgrey text-offwhite" type="button" data-bs-toggle="collapse" data-bs-target="#onas" aria-expanded="true" aria-controls="onas">
+        O nas
+      </button>
+    </h2>
+    <div id="onas" class="accordion-collapse collapse " aria-labelledby="heading-3" data-bs-parent="#info">
+      <div class="accordion-body bg-darkgrey text-offwhite">koksdoasodas</div>
+    </div>
+  </div>
+
 </div>
 
-<div class="sticky-bottom">
-  <div class="collapse navbar-collapse bg-dark text-white text-start pb-3 pt-3 ps-4 pe-4" id="navbarCesnje">
-    <ul class="navbar-nav ms-auto mb-lg-0">
-      <li class="nav-item display-5">
-        <a class="nav-link active" href="index.html">Domov</a>
-      </li>
-      <hr />
-      <li class="nav-item display-5">
-        <a class="nav-link" href="o_druzini.html">O družini</a>
-      </li>
-      <hr />
-      <li class="nav-item display-5">
-        <a class="nav-link" href="izdelki.html">Izdelki</a>
-      </li>
-      <hr />
-      <li class="nav-item display-5">
-        <a class="nav-link" href="obrazec.html">Obrazec za naročilo</a>
-      </li>
-    </ul>
-  </div>
-<!-- NAVBAR OBSTAJA LETS FUCKING GOOOOOOOOOOOOOO (nena še dela ampak vsaj OBSTAJA OMG YIPPIEEEEE) -->
-  <div class="sticky-bottom bg-black">
-    <div class="d-flex align-items-center row g-0">
-      <div class="col-4 text-center">
-        <button class="btn btn-sm" onclick = kosarica()>
-          <img src="images/kosarica_icon.png" class="img-fluid mx-auto d-block max-width: 100% pt-2 pb-2" width="50em" alt="kosarica" >
-        </button>
-      </div>
-      <div class="col-4 text-center">
-        <button class="btn btn-sm" onclick = domov()>
-          <img src="images/home_icon.png" class="img-fluid mx-auto d-block max-width: 100% pt-2 pb-2" width="50em" alt="home" >
-        </button>
-      </div>
-      <div class="col-4 text-center">
-        <button class="btn btn-sm navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCesnje">
-            <img src="images/burger_meni_icon.png" class="img-fluid d-block mx-auto max-width: 100% pt-2 pb-2" width="50em" alt="burger_meni" >
-        </button>
+
+<!--footer-->
+    <div>
+      <img src="images/ceri_logo2.png" class="img-fluid mx-auto d-block max-width: 100% pt-3" width="70em" alt="ceri_logo" >
+      <div class="text-center pb-5 pt-3">
+        © 2025 Čeri Inc. Vse pravice pridržane
       </div>
     </div>
   </div>
-<!-- tu se navbar za zdaj konča, ne vem kak točno ga importat da se ne rabi vedno pisat -->
-</div> <!--DO SEM -->
+
+  <div class="sticky-bottom">
+    <div class="collapse navbar-collapse bg-dark text-white font-orelega-title text-start pb-3 pt-3 ps-4 pe-4" id="navbarCesnje">
+      <ul class="navbar-nav ms-auto mb-lg-0">
+        <li class="nav-item display-5">
+          <a class="nav-link active" href="index.html">Domov</a>
+        </li>
+        <hr />
+        <li class="nav-item display-5">
+          <a class="nav-link" href="o_druzini.html">O družini</a>
+        </li>
+        <hr />
+        <li class="nav-item display-5">
+          <a class="nav-link" href="izdelki.html">Izdelki</a>
+        </li>
+        <hr />
+        <li class="nav-item display-5">
+          <a class="nav-link" href="obrazec.html">Obrazec za naročilo</a>
+        </li>
+      </ul>
+    </div>
+  <!-- NAVBAR OBSTAJA LETS FUCKING GOOOOOOOOOOOOOO (nena še dela ampak vsaj OBSTAJA OMG YIPPIEEEEE) -->
+    <div class="sticky-bottom bg-black">
+      <div class="d-flex align-items-center row g-0">
+        <div class="col-4 text-center">
+          <button class="btn btn-sm" onclick = kosarica()>
+            <img src="images/kosarica_icon.png" class="img-fluid mx-auto d-block max-width: 100% pt-2 pb-2" width="50em" alt="kosarica" >
+          </button>
+        </div>
+        <div class="col-4 text-center">
+          <button class="btn btn-sm" onclick = domov()>
+            <img src="images/home_icon.png" class="img-fluid mx-auto d-block max-width: 100% pt-2 pb-2" width="50em" alt="home" >
+          </button>
+        </div>
+        <div class="col-4 text-center">
+          <button class="btn btn-sm navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCesnje">
+              <img src="images/burger_meni_icon.png" class="img-fluid d-block mx-auto max-width: 100% pt-2 pb-2" width="50em" alt="burger_meni" >
+          </button>
+        </div>
+      </div>
+    </div>
+  <!-- tu se navbar za zdaj konča, ne vem kak točno ga importat da se ne rabi vedno pisat -->
+  </div> <!--DO SEM -->
 </body>
 </html>
