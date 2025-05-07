@@ -4,8 +4,13 @@
 // Include any default variable overrides here (though functions won't be available)
 
 @import "../node_modules/bootstrap/scss/functions";
-@import "../node_modules/bootstrap/scss/variables";
-@import "../node_modules/bootstrap/scss/_utilities";
+
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+@import url("https://use.typekit.net/tcg7wid.css");
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css");
+
+$font-family-sans-serif:"Kanit", sans-serif;
 
 $custom-colors: (
     "pinklight": #E7D4D8,
@@ -18,25 +23,122 @@ $custom-colors: (
     "darkcherryred": #4C1208
 );
 
-$font-sizes: (
-  5: 2rem,
-  6: 1.2rem,
-);
+.hide {
+    display: none !important;
+  }
 
-$utilities: map-merge(
-  $utilities,
-  (
-    "font-size": map-merge(
-      map-get($utilities, "font-size"),
-      (
-        values: $font-sizes,
-      ),
-    ),
-  )
-);
+$font-orelega: "Orelega One";
+
+
+.font-orelega-title{
+    font-family: $font-orelega;
+    font-size: 2em;
+}
+
+
+
+
+
+@import "../node_modules/bootstrap/scss/variables"; /* to more bit pred map merge kr mors nalozit rgb-barve????*/
+
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/utilities";
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-// Then add additional custom code here
+
+
+
+
+//acordian button
+
+
+.accordion-button::after {
+    content: "\f4fe" !important; // bi-plus-lg
+    font-family: 'bootstrap-icons' !important;
+    background-image: none !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    transform: none !important;
+    display: inline-block !important;
+    font-size: 2rem !important;
+    line-height: 1 !important;
+    text-align: center !important;
+    width: 1em !important;
+    height: 1em !important;
+  }
+  
+  .accordion-button:not(.collapsed)::after {
+    content: "\f2ea" !important; // bi-dash-lg
+  }
+
+
+
+
+.backtotop-img {
+    visibility: hidden;
+    cursor: pointer;
+    position: fixed;
+    bottom: 100px;
+    right: 10px;
+    user-select: none;
+    transition:ls;
+  }
+
+  .backtotop{
+    pointer-events: none;
+    display: block;
+  }
+  
+
+
+  .slide-in-bottom {
+    -webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+.slide-out-top {
+    -webkit-animation: slide-out-top 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: slide-out-top 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  }
+.slide-in-center {
+    -webkit-animation: slide-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+.slide-out-center {
+    -webkit-animation: slide-out-center 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: slide-out-center 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  }
+
+
+  @keyframes scale-in-center {
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes scale-out-center {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(0);
+      opacity: 0;
+    }
+  }
+  
+  .scale-in-center {
+    animation: scale-in-center 0.5s ease-out forwards;
+  }
+  
+  .scale-out-center {
+    animation: scale-out-center 0.5s ease-out forwards;
+  }
+  

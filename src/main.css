@@ -1,4 +1,17 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Orelega+One&display=swap");
+@import url("https://use.typekit.net/tcg7wid.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css");
+.hide {
+  display: none !important;
+}
+
+.font-orelega-title {
+  font-family: "Orelega One";
+  font-size: 2em;
+}
+
+/* to more bit pred map merge kr mors nalozit rgb-barve????*/
 /*!
  * Bootstrap  v5.3.5 (https://getbootstrap.com/)
  * Copyright 2011-2025 The Bootstrap Authors
@@ -87,7 +100,7 @@
   --bs-dark-border-subtle: #adb5bd;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
-  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-sans-serif: "Kanit", sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
@@ -12721,4 +12734,83 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
-}/*# sourceMappingURL=main.css.map */
+}
+.accordion-button::after {
+  content: "\f4fe" !important;
+  font-family: "bootstrap-icons" !important;
+  background-image: none !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  transform: none !important;
+  display: inline-block !important;
+  font-size: 2rem !important;
+  line-height: 1 !important;
+  text-align: center !important;
+  width: 1em !important;
+  height: 1em !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+  content: "\f2ea" !important;
+}
+
+.backtotop-img {
+  visibility: hidden;
+  cursor: pointer;
+  position: fixed;
+  bottom: 100px;
+  right: 10px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  transition: ls;
+}
+
+.backtotop {
+  pointer-events: none;
+  display: block;
+}
+
+.slide-in-bottom {
+  animation: slide-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.slide-out-top {
+  animation: slide-out-top 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+.slide-in-center {
+  animation: slide-in-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.slide-out-center {
+  animation: slide-out-center 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+@keyframes scale-in-center {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes scale-out-center {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+.scale-in-center {
+  animation: scale-in-center 0.5s ease-out forwards;
+}
+
+.scale-out-center {
+  animation: scale-out-center 0.5s ease-out forwards;
+}
