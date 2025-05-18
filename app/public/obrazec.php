@@ -92,35 +92,35 @@
         </div>
       </div>
       <div class="row">
-        <form class="ps-4 pe-4 pb-3">
+        <form class="ps-4 pe-4 pb-3" action="izpis.php" method="POST">
             <div class="mb-3">
               <label for="ime_priimek" class="form-label text-offwhite">Ime in priimek *</label>
-              <input type="text" class="form-control border-4 rounded-1 bg-darkcherryred" id="ime_priimek" aria-describedby="ime_priimek" required>
+              <input type="text" class="form-control border-4 rounded-1 bg-darkcherryred" id="ime_priimek" name="ime_priimek" aria-describedby="ime_priimek" required>
             </div>
             <div class="mb-3">
               <label for="telefon" class="form-label text-offwhite">Telefonska številka *</label>
-              <input type="tel" class="form-control border-4 rounded-1 bg-darkcherryred" id="telefon" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" aria-describedby="telefon" required>
+              <input type="tel" class="form-control border-4 rounded-1 bg-darkcherryred" id="telefon" name="telefon" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" aria-describedby="telefon" required>
             </div>
             <div class="mb-3">
                 <label for="naslov" class="form-label text-offwhite">Naslov *</label>
-                <input type="text" class="form-control border-4 rounded-1 bg-darkcherryred" id="naslov" aria-describedby="naslov" required>
+                <input type="text" class="form-control border-4 rounded-1 bg-darkcherryred" id="naslov" name="naslov" aria-describedby="naslov" required>
             </div>
             <div class="mb-3 row">
                 <div class="col-7">
                     <label for="mesto" class="form-label text-offwhite">Mesto *</label>
-                    <input type="text" class="form-control border-4 rounded-1 bg-darkcherryred" id="mesto" aria-describedby="mesto" required>
+                    <input type="text" class="form-control border-4 rounded-1 bg-darkcherryred" id="mesto" name="mesto" aria-describedby="mesto" required>
                 </div>
                 <div class="col-5">        
                     <label for="postna_stevilka" class="form-label text-offwhite">Poštna številka *</label>
-                    <input type="number" class="form-control border-4 rounded-1 bg-darkcherryred" id="postna_stevilka" aria-describedby="postna_stevilka" required>
+                    <input type="number" class="form-control border-4 rounded-1 bg-darkcherryred" id="postna_stevilka" name="postna_stevilka" aria-describedby="postna_stevilka" required>
                 </div>
             </div>
             <div class="mb-3">
                 <label for="naslov_podjetja" class="form-label text-offwhite">Naslov podjetja (opcijsko)</label>
-                <input type="text" class="form-control border-4 rounded-1 bg-darkcherryred" id="naslov_podjetja" aria-describedby="naslov_podjetja" required>
+                <input type="text" class="form-control border-4 rounded-1 bg-darkcherryred" id="naslov_podjetja" name="naslov_podjetja" aria-describedby="naslov_podjetja" required>
             </div>
             <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="pogoji_poslovanja" required>
+              <input type="checkbox" class="form-check-input" id="pogoji_poslovanja" name="pogoji_poslovanja" required>
               <label class="form-check-label text-offwhite" for="pogoji_poslovanja">Strinjam se s <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Pogoji poslovanja</a> </label>
             </div>
             <div class="text-center">
@@ -153,32 +153,32 @@
                 </p>
             </div>
             <div class="col-lg-7">
-                <form action="" class="form">
+                <form action="izpis_kartice.php" method="POST" class="form">
                     <div class="row">
                         <div class="col-12">
                             <div class="form__div">
-                                <input type="text" class="form-control rounded-0" placeholder=" " required>
-                                <label for="" class="form__label text-darkgrey">Številka kartice</label>
+                                <input type="text" id="st_kartice" name="st_kartice" class="form-control rounded-0" placeholder=" " required>
+                                <label for="st_kartice" class="form__label text-darkgrey">Številka kartice</label>
                             </div>
                         </div>
 
                         <div class="col-6">
                             <div class="form__div">
-                                <input type="text" class="form-control" placeholder=" " required>
-                                <label for="" class="form__label text-darkgrey">MM / LL</label>
+                                <input type="month" id="MMLL" name="MMLL" class="form-control" placeholder="MM/LL" required>
+                                <label for="MMLL" class="form__label text-darkgrey">MM / LL</label>
                             </div>
                         </div>
 
                         <div class="col-6">
                             <div class="form__div">
-                                <input type="password" class="form-control" placeholder=" " required>
-                                <label for="" class="form__label text-darkgrey">CVV</label>
+                                <input type="password" id="CVV" name="CVV" class="form-control" placeholder=" " required>
+                                <label for="CVV" class="form__label text-darkgrey">CVV</label>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="form__div pb-2">
-                                <input type="text" class="form-control" placeholder=" " required>
-                                <label for="" class="form__label text-darkgrey">Ime na kartici</label>
+                                <input type="text" id="cardName" name="cardName" class="form-control" placeholder=" " required>
+                                <label for="cardName" class="form__label text-darkgrey">Ime na kartici</label>
                             </div>
                         </div>
                         <div class="col-12">
