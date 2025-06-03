@@ -54,6 +54,15 @@
     <br />
 
 
+<?php if($_SERVER['REQUEST_METHOD']==='POST'){
+        include 'db_insert.php';
+    }
+    ?>
+
+<?php include 'db_fetch.php' ?>
+
+
+
 <!-- bolsi acordian-->
 <?php include ("footer_nav.php"); ?>
 </body>

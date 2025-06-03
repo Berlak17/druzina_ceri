@@ -124,7 +124,7 @@
               <label class="form-check-label text-offwhite" for="pogoji_poslovanja">Strinjam se s <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Pogoji poslovanja</a> </label>
             </div>
             <div class="text-center">
-                <button type="submit" class="btn text"><img src="images/nadaljuj_obrazec_button.png" class="img-fluid mx-auto d-block " width="200em" alt="nadaljuj_obrazec_button"></button>
+                <button type="submit" class="btn text" name="narocilo"><img src="images/nadaljuj_obrazec_button.png" class="img-fluid mx-auto d-block " width="200em" alt="nadaljuj_obrazec_button"></button>
             </div>    
           </form>
       </div>
