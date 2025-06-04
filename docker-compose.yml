@@ -16,7 +16,7 @@ services:
     links:
       - mysql
   mysql:
-    image: mysql:9.2.0
+    image: mysql:8.0.40
     ports:
       - "3307:3306"
     environment:
