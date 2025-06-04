@@ -13,8 +13,8 @@ CREATE USER 'tristan'@'localhost' IDENTIFIED BY 'tristan';
 
 GRANT SELECT, INSERT, UPDATE, DELETE ON druzinaceri.* TO 'tristan'@'localhost';
 
-DROP DATABASE IF EXISTS narocniki;
-DROP DATABASE IF EXISTS posta;
+DROP TABLE IF EXISTS narocniki;
+DROP TABLE IF EXISTS posta;
 
 CREATE TABLE IF NOT EXISTS posta (
     id_posta INTEGER PRIMARY KEY AUTO_INCREMENT NOT NULL,

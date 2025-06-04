@@ -14,22 +14,4 @@ try {
 
 
 
-
-
-
-
-
-
-
-
-/*class dbConnectin {
-
-}*/
-
-
-
-
-
-
-
 ?>
