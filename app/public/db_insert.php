@@ -17,7 +17,7 @@ if($_SERVER['REQUEST_METHOD']==='POST'){
 
         $queryNarocnik = "INSERT INTO narocniki(ime, priimek, telefon, naslov, mesto, fk_posta, naslov_podjetja, se_strinja)
         VALUES('$ime', '$priimek','$telefon','$naslov','$mesto','$queryPosta','$naslov_podjetja','$se_strinja')";
-
+        $conn->exec($queryNarocnik);
 
         $conn=null;
 
