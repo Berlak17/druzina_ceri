@@ -3,7 +3,7 @@
         <p><span class="fw-bold">Ime in priimek: </span><?php echo $izpis['ime'].' '.$izpis['priimek'];?></p>
         <p><span class="fw-bold">Telefon: </span><?php echo $izpis['telefon']?></p>
         <p><span class="fw-bold">Naslov: </span><?php echo $izpis['naslov'].' '.$izpis['mesto'];?></p>
-        <p><span class="fw-bold">Pošta: </span><?php echo $izpis['fk_posta'].' '.$izpis['mesto'];?></p>
+        <p><span class="fw-bold">Pošta: </span><?php echo $izpis['st_posta'].' '.$izpis['mesto'];?></p>
         <p><span class="fw-bold">Naslov podjetja: </span><?php echo $izpis['naslov_podjetja'].' '?></p>
         <p><span class="fw-bold">Se strinja: </span><?php echo $izpis['se_strinja'].'';?></p>
         
