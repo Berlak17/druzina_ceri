@@ -58,10 +58,18 @@
         include 'db_insert.php';
     }
     ?>
+<table class="table">
+<tr>
+<td>Ime in priimek</td>
+<td>Telefon</td>
+<td>Naslov</td>
+<td>Pošta</td>
+<td>Naslov podjetja</td>
+<td>Se strinja</td>
+</tr>
+<?php include 'db_fetch.php' ?>                                                        
 
-<?php include 'db_fetch.php' ?>
-
-
+</table>
 
 <!-- bolsi acordian-->
 <?php include ("footer_nav.php"); ?>

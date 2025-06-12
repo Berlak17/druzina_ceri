@@ -95,29 +95,29 @@
         <form class="ps-4 pe-4 pb-3" action="izpis.php" method="POST">
             <div class="mb-3">
               <label for="ime_priimek" class="form-label text-offwhite">Ime in priimek *</label>
-              <input type="text" class="form-control border-4 rounded-1 bg-darkcherryred" id="ime_priimek" name="ime_priimek" aria-describedby="ime_priimek" required>
+              <input type="text" class="form-control border-4 rounded-1 bg-darkcherryred text-offwhite" id="ime_priimek" name="ime_priimek" aria-describedby="ime_priimek" required>
             </div>
             <div class="mb-3">
               <label for="telefon" class="form-label text-offwhite">Telefonska številka *</label>
-              <input type="tel" class="form-control border-4 rounded-1 bg-darkcherryred" id="telefon" name="telefon" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" aria-describedby="telefon" required>
+              <input type="tel" class="form-control border-4 rounded-1 bg-darkcherryred text-offwhite" id="telefon" name="telefon" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" aria-describedby="telefon" required>
             </div>
             <div class="mb-3">
                 <label for="naslov" class="form-label text-offwhite">Naslov *</label>
-                <input type="text" class="form-control border-4 rounded-1 bg-darkcherryred" id="naslov" name="naslov" aria-describedby="naslov" required>
+                <input type="text" class="form-control border-4 rounded-1 bg-darkcherryred text-offwhite" id="naslov" name="naslov" aria-describedby="naslov" required>
             </div>
             <div class="mb-3 row">
                 <div class="col-7">
                     <label for="mesto" class="form-label text-offwhite">Mesto *</label>
-                    <input type="text" class="form-control border-4 rounded-1 bg-darkcherryred" id="mesto" name="mesto" aria-describedby="mesto" required>
+                    <input type="text" class="form-control border-4 rounded-1 bg-darkcherryred text-offwhite" id="mesto" name="mesto" aria-describedby="mesto" required>
                 </div>
                 <div class="col-5">        
                     <label for="postna_stevilka" class="form-label text-offwhite">Poštna številka *</label>
-                    <input type="number" class="form-control border-4 rounded-1 bg-darkcherryred" id="postna_stevilka" name="postna_stevilka" aria-describedby="postna_stevilka" required>
+                    <input type="number" class="form-control border-4 rounded-1 bg-darkcherryred text-offwhite" id="postna_stevilka" name="postna_stevilka" aria-describedby="postna_stevilka" required>
                 </div>
             </div>
             <div class="mb-3">
                 <label for="naslov_podjetja" class="form-label text-offwhite">Naslov podjetja (opcijsko)</label>
-                <input type="text" class="form-control border-4 rounded-1 bg-darkcherryred" id="naslov_podjetja" name="naslov_podjetja" aria-describedby="naslov_podjetja" required>
+                <input type="text" class="form-control border-4 rounded-1 bg-darkcherryred text-offwhite" id="naslov_podjetja" name="naslov_podjetja" aria-describedby="naslov_podjetja" required>
             </div>
             <div class="mb-3 form-check">
               <input type="checkbox" class="form-check-input" id="pogoji_poslovanja" name="pogoji_poslovanja" required>
