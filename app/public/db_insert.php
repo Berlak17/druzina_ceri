@@ -20,7 +20,7 @@ if($_SERVER['REQUEST_METHOD']==='POST'){
         if($se_strinja == 'on'){
             $se_strinja = 1;
         }
-        
+
 
         $queryNarocnik = "INSERT INTO narocniki(ime, priimek, telefon, naslov, mesto, fk_posta, naslov_podjetja, se_strinja)
         VALUES('$ime', '$priimek','$telefon','$naslov','$mesto','$queryPosta','$naslov_podjetja','$se_strinja');";

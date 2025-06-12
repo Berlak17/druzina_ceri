@@ -1,7 +1,7 @@
 <?php
 include 'dbConnectin.php';
 
-$queryAll = "SELECT * FROM narocniki";
+$queryAll = "SELECT ime, priimek, telefon, naslov, mesto, st_posta, naslov_podjetja, se_strinja FROM narocniki, posta WHERE id_posta=fk_posta;";
 
 $stmt = $conn->prepare($queryAll);
 $stmt -> execute();

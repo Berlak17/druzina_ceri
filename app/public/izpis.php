@@ -58,14 +58,17 @@
         include 'db_insert.php';
     }
     ?>
+<hr />
+<h1>Seznam naročnikov</h1>
+<hr />
 <table class="table">
 <tr>
-<td>Ime in priimek</td>
-<td>Telefon</td>
-<td>Naslov</td>
-<td>Pošta</td>
-<td>Naslov podjetja</td>
-<td>Se strinja</td>
+<th>Ime in priimek</th>
+<th>Telefon</th>
+<th>Naslov</th>
+<th>Pošta</th>
+<th>Naslov podjetja</th>
+<th>Se strinja</th>
 </tr>
 <?php include 'db_fetch.php' ?>                                                        
 
